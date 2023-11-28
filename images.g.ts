@@ -73,6 +73,41 @@ namespace myImages {
 ................................
 ................................
 `;
+            case "image3":
+            case "Potet":return img`
+.................5555555........
+..............55555555555.......
+............55555555..55........
+..........ff55555555ff..........
+........ffeee55555555eff........
+......ffeeeeee5555555eeeff......
+.....feeeeeeee555555eeeeeef.....
+....feeeeeeeee55555eeeeeeeef....
+...feeeeeeeeeeeeeeeeeeeeeeeef...
+..feeeeeeeffeeeeeeeeffeeeeeeef..
+..feeeeeefeefeeeeeefeefeeeeeef..
+.feeeeeefeeeefeeeefeeeefeeeeeef.
+.feeeeeeeffffeeeeeeffffeeeeeeef.
+.fffeeeeef11feeeeeef11feeeeeeff.
+.fefeeeeef18feeeeeef81feeeeeeff.
+.feffeeeeffffeeeeeeffffeeeeeeff.
+.ffefeeeeeeeeeeffffeeeeeeeeefff.
+.feefeeeeeeeeeffeefffeeeeeeefff.
+.feffeeeee2eeeeeeeeefeee2eeefef.
+.fffeeeeeeeeeeeeeeeefeeeeeeefff.
+.ffeeeeee2e2eefeeefffee2e2eeeff.
+.feeeeeeeeeeeefffffeeeeeeeeeeef.
+.feeeeeeeeeeeeeeeeeeeeeeeeeeeef.
+.feeeeeeeeeefeeeeeeffeeeeeeeeef.
+.feeeeeeeeeeffeeeeffeeeeeeeeeef.
+..feeeeeeeeeeffffffeeeeeeeeeef..
+...ffeeeeeeeeeeeeeeeeeeeeeeff...
+.....ffeeeeeeeeeeeeeeeeeeff.....
+......feeefffffffffffeeeef......
+......feeef..........feeef......
+......feeef..........feeef......
+.......fff............fff.......
+`;
         }
         return null;
     })
@@ -363,6 +398,25 @@ namespace myImages {
 ................................
 ................................
 ................................
+`];
+            case "myAnim0":
+            case "anim3":return [img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . f . . . . . . . . 
+. . . . . . . f . . . . . . . . 
+. . . . . . f f f . . . . . . . 
+. . . . . f f f f f . . . . . . 
+. . . . . . . e . . . . . . . . 
+. . . . . . . e . . . . . . . . 
+. . . . . . . e . . . . . . . . 
+. . . . . . . e . . . . . . . . 
+. . . . . . . e . . . . . . . . 
+. . . . . . . e . . . . . . . . 
+. . . . . . . e . . . . . . . . 
+. . . . . . . e . . . . . . . . 
+. . . . . . . e . . . . . . . . 
+. . . . . . . e . . . . . . . . 
 `];
         }
         return null;
