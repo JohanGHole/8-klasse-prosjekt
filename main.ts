@@ -10,7 +10,7 @@ function show_character_picker () {
 let potet: Sprite = null
 let showCharacterScreen = false
 scene.setBackgroundColor(15)
-game.splash("Welcome")
+game.splash("Welcome To Food Smashers!")
 show_character_picker()
 forever(function () {
     let mySprite: Sprite = null
