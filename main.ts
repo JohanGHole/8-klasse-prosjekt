@@ -11,11 +11,11 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
         for (let value of sprites.allOfKind(SpriteKind.SelectableCharacter)) {
             value.destroy()
         }
-        for (let value of sprites.allOfKind(SpriteKind.Background)) {
-            value.destroy()
+        for (let value2 of sprites.allOfKind(SpriteKind.Background)) {
+            value2.destroy()
         }
-        for (let value of sprites.allOfKind(SpriteKind.Text)) {
-            value.destroy()
+        for (let value3 of sprites.allOfKind(SpriteKind.Text)) {
+            value3.destroy()
         }
         controller.moveSprite(thePlayer, 100, 0)
         showCharacterScreen = false
@@ -30,9 +30,9 @@ controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 function show_character_picker () {
     scene.centerCameraAt(80, 60)
-    for (let value of sprites.allOfKind(SpriteKind.Player)) {
-        value.ay = gravity
-        value.setFlag(SpriteFlag.Invisible, true)
+    for (let value4 of sprites.allOfKind(SpriteKind.Player)) {
+        value4.ay = gravity
+        value4.setFlag(SpriteFlag.Invisible, true)
     }
     showCharacterScreen = true
     karakter1 = sprites.create(assets.image`karakter1`, SpriteKind.SelectableCharacter)
