@@ -42,7 +42,7 @@ function show_character_picker () {
     textSprite = textsprite.create("Velg din karakter:", 9, 10)
     textSprite.z = 101
     textSprite.setPosition(80, 29)
-    karakter2 = sprites.create(assets.image`karakter2`, SpriteKind.SelectableCharacter)
+    karakter2 = sprites.create(assets.image`Karakter2`, SpriteKind.SelectableCharacter)
     karakter2.z = 101
     karakter2.setPosition(73, 67)
     sprites.setDataSprite(karakter2, "player", karakter2)
