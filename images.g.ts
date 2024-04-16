@@ -3,7 +3,7 @@ namespace myImages {
 
     helpers._registerFactory("image", function(name: string) {
         switch(helpers.stringTrim(name)) {
-            case "image6":
+            case "image3":
             case "myImage":return img`
 ................................
 ................................
@@ -250,7 +250,7 @@ f 8 8 8 8 8 8 8 8 8 8 8 f 8 8 f
 ................................
 ................................
 `;
-            case "image7":
+            case "image6":
             case "Goompion":return img`
 ................................
 .....ff......................ff.
