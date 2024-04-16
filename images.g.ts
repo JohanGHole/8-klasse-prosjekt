@@ -250,6 +250,41 @@ f 8 8 8 8 8 8 8 8 8 8 8 f 8 8 f
 ................................
 ................................
 `;
+            case "image7":
+            case "Goompion":return img`
+................................
+.....ff......................ff.
+.....fff...................ffff.
+.....fcff................fffcf..
+......fcfff.............fccccf..
+......fcccff...ffffff..ffcccff..
+.......fcccfffff9cccfffffccff...
+.......fffffccc989ccccfcfccf...1
+........fccfccc898ccccfccff...1f
+.......ffccfccc989ccccfcccf..1ff
+.......fccfff89898989fffccf..1ff
+.......fccfff98989c98fffccf..1ff
+......ffccff2cc898ccc2ffccf..1ff
+......fcccfffcc989cccfffccf..1ff
+.......fcccfccc898cccccccff..1ff
+.......fffffffffffffffffffff.1ff
+.......fffffffffffffffffffff.fff
+..1....ffffffffffffffffffff..fff
+.1f1...ffffffffffffffffffff.ffff
+.1ff1..ffffffffffffffffffff.ffff
+11fff..ffffffffffffffffffff.ffff
+f1fff...ffffffffffffffffff.fffff
+fffff.....ffffffffffffffffffffff
+ffffff....f5ccfffffffffffcffffff
+fffffff...f55c3ccffffffccccffff.
+ffffffff..fc55cccccccc2ccc3ffff.
+ffffffff.fccc55ccccccc22cccffff.
+...fffffffcccc555cccccc2cccffff.
+...ffffff7cccccc55ccccc2ccccfff.
+....fffff777ccccc555ccc2ccccf...
+......ffccc77cccccc55555ccc3f...
+......fc3ccc77ccccccccc55555ff..
+`;
             case "image8":
             case "karakterJohan":return img`
 ................................
