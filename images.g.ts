@@ -161,25 +161,6 @@ ddddddddddddddddd4ddddddddddddddddddd4ddddddddddddd4dddddddddddddddddddddddddddd
 4ddddddd4d444dd4dd4ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd4ddddddddddddddddddddddddddddddd4ddddddddddddddddddddddddddddd4ddddddddd
 dddddddddd444ddddd3ddddddddddddd4ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd44dddddddddddddddddddddddddddddddddd4ddddddddd
 `;
-            case "image6":
-            case "myImage0":return img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`;
             case "image1":
             case "karakter1":return img`
 7777777777777ff77777717777777777
@@ -269,40 +250,79 @@ f 8 8 8 8 8 8 8 8 8 8 8 f 8 8 f
 ................................
 ................................
 `;
-            case "image7":
-            case "Goompion":return img`
+            case "image8":
+            case "karakterJohan":return img`
 ................................
-.....ff......................ff.
-.....fff...................ffff.
-.....fcff................fffcf..
-......fcfff.............fccccf..
-......fcccff...ffffff..ffcccff..
-.......fcccfffff9cccfffffccff...
-.......fffffccc989ccccfcfccf...1
-........fccfccc898ccccfccff...1f
-.......ffccfccc989ccccfcccf..1ff
-.......fccfff89898989fffccf..1ff
-.......fccfff98989c98fffccf..1ff
-......ffccff2cc898ccc2ffccf..1ff
-......fcccfffcc989cccfffccf..1ff
-.......fcccfccc898cccccccff..1ff
-.......fffffffffffffffffffff.1ff
-.......fffffffffffffffffffff.fff
-..1....ffffffffffffffffffff..fff
-.1f1...ffffffffffffffffffff.ffff
-.1ff1..ffffffffffffffffffff.ffff
-11fff..ffffffffffffffffffff.ffff
-f1fff...ffffffffffffffffff.fffff
-fffff.....ffffffffffffffffffffff
-ffffff....f5ccfffffffffffcffffff
-fffffff...f55c3ccffffffccccffff.
-ffffffff..fc55cccccccc2ccc3ffff.
-ffffffff.fccc55ccccccc22cccffff.
-...fffffffcccc555cccccc2cccffff.
-...ffffff7cccccc55ccccc2ccccfff.
-....fffff777ccccc555ccc2ccccf...
-......ffccc77cccccc55555ccc3f...
-......fc3ccc77ccccccccc55555ff..
+................................
+................................
+.......ffffff......ffffff.......
+......fdeeeedf....fdeeeedf......
+......feeddeef....feeddeef......
+......feddddef....feddddef......
+......feddddef....feddddef......
+......feddddef....feddddef......
+......feddddef....feddddef......
+......feddddef....feddddef......
+......feddddef.ff.feddddef......
+......feddddeffeeffeddddef......
+......feddddefeeeefeddddef......
+....ffeeeeeeeeeeeeeeeeeeeeff....
+...fee..bbb..........bbb..eef...
+..fee..bfffb........bfffb..eef..
+..fe...f118..........811f...ef..
+..fe........................ef..
+..fe........................ef..
+..fe........................ef..
+..fe......ffffffffffff......ef..
+..fe......f1111111111f......ef..
+..fee.....f1111111111f......ef..
+...fee.....f11111111f.....eef...
+....ffee....ffffffff....eeff....
+......ffeeeee......eeeeeff......
+........fffffeeeeeefffff........
+.............ffffff.............
+................................
+................................
+................................
+`;
+            case "JJ7@8/E!u(0UhF*UyMUc":
+            case "test":return img`
+ffffffffffffffffffffffffffffffffffff
+f2222222222222222222222222222222222f
+f2................................2f
+f2................................2f
+f2................................2f
+f2................................2f
+f2................................2f
+f2................................2f
+f2................................2f
+f2................................2f
+f2................................2f
+f2................................2f
+f2................................2f
+f2................................2f
+f2................................2f
+f2................................2f
+f2................................2f
+f2................................2f
+f2................................2f
+f2................................2f
+f2................................2f
+f2................................2f
+f2................................2f
+f2................................2f
+f2................................2f
+f2................................2f
+f2................................2f
+f2................................2f
+f2................................2f
+f2................................2f
+f2................................2f
+f2................................2f
+f2................................2f
+f2................................2f
+f2222222222222222222222222222222222f
+ffffffffffffffffffffffffffffffffffff
 `;
         }
         return null;
