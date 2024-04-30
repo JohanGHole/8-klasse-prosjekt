@@ -18,6 +18,10 @@ def on_a_pressed():
             value3.destroy()
         controller.move_sprite(thePlayer, 100, 0)
         showCharacterScreen = False
+        music.play(music.create_song(assets.song("""
+                Backgrounds music
+            """)),
+            music.PlaybackMode.UNTIL_DONE)
     else:
         thePlayer.vy = -100
 controller.A.on_event(ControllerButtonEvent.PRESSED, on_a_pressed)
@@ -46,7 +50,7 @@ def show_character_picker():
     textSprite.z = 101
     textSprite.set_position(80, 29)
     karakter2 = sprites.create(assets.image("""
-            karakter2
+            Goompion
         """),
         SpriteKind.SelectableCharacter)
     karakter2.z = 101
@@ -138,7 +142,7 @@ karakter1_liten = sprites.create(assets.image("""
     karakter1_small
 """), SpriteKind.player)
 karakter2 = sprites.create(assets.image("""
-    karakter2
+    Goompion
 """), SpriteKind.player)
 karakter3 = sprites.create(assets.image("""
     myImage
