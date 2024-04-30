@@ -322,22 +322,22 @@ f 8 8 8 8 8 8 8 8 8 8 8 f 8 8 f
 `;
             case "image9":
             case "Goppion liten":return img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
+. . . . . . . . . f f f f f f f 
+. . . . . f f . f f f f f f f f 
+. . . . f f f . . f f f f f f f 
+. f f f f f f . . . f f f f f f 
+. f f f f f f . . f f f f f f f 
+. . f f f f f . f f f f f f f f 
+. f f f f f f f f f f 9 f f f f 
+. f f f f f f f f f f f f f f f 
+. f f f f f f f f f f f f f f f 
+. . f f f f f f f f f f f f f f 
+. . f f f f f f f f f f f f f f 
+. . . . f f f f f f f f f f f f 
+. . . . . . f f f f f f f f f f 
+. . . . . . f f f f f f f f f f 
+. . . . . . f f f f f f f f f f 
+. . . . . . f f f f f f f f f f 
 `;
             case "image6":
             case "Goompion":return img`
