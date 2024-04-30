@@ -196,60 +196,6 @@ f666666666666666666666666f66fff7
 77fff66666666666666666fff7777777
 77777fffffffffffffffff7777777777
 `;
-            case "image5":
-            case "karakter1_small":return img`
-. . . . . . . . . . . . . . . . 
-. . f f f f f f f f f . . . . . 
-. f 9 9 9 9 9 9 9 9 9 f . . . . 
-f 9 9 f f f f f f f 9 9 f f f . 
-f 9 f . . . . . . . f 9 f 9 9 f 
-f 9 f . . . . . . . f 9 f 9 9 f 
-f 9 9 f f f f f f f 9 9 f f 9 f 
-f 9 9 9 9 9 9 9 9 9 9 9 f . f f 
-f 8 8 9 9 9 9 9 9 9 9 9 f . f f 
-f 8 8 8 8 8 9 9 9 9 9 9 f . f f 
-f 8 8 8 8 8 8 9 9 9 9 9 f f 9 f 
-f 8 8 8 8 8 8 8 8 9 9 9 f 8 8 f 
-f 8 8 8 8 8 8 8 8 8 8 8 f 8 8 f 
-. f 8 8 8 8 8 8 8 8 8 8 f 8 f . 
-. f 8 8 8 8 8 8 8 8 8 8 f f . . 
-. . f f f f f f f f f f . . . . 
-`;
-            case "image7":
-            case "E":return img`
-................................
-................................
-...........ffffffff.............
-..........f.....................
-..........f.....................
-.........ff.....................
-.........ff.....................
-.........ff.....................
-..........fff...................
-..........fff...................
-............f...................
-............ff..................
-............f.f.f.f.............
-................................
-................................
-................................
-................................
-................................
-................................
-................................
-................................
-................................
-................................
-................................
-................................
-................................
-................................
-................................
-................................
-................................
-................................
-................................
-`;
             case "image8":
             case "karakterJohan":return img`
 ................................
@@ -322,57 +268,95 @@ f 8 8 8 8 8 8 8 8 8 8 8 f 8 8 f
 `;
             case "image9":
             case "Goppion liten":return img`
-. . . . . . . . . f f f f f f f 
-. . . . . f f . f f f f f f f f 
-. . . . f f f . . f f f f f f f 
-. f f f f f f . . . f f f f f f 
-. f f f f f f . . f f f f f f f 
-. . f f f f f . f f f f f f f f 
-. f f f f f f f f f f 9 f f f f 
-. f f f f f f f f f f f f f f f 
-. f f f f f f f f f f f f f f f 
-. . f f f f f f f f f f f f f f 
-. . f f f f f f f f f f f f f f 
-. . . . f f f f f f f f f f f f 
-. . . . . . f f f f f f f f f f 
-. . . . . . f f f f f f f f f f 
-. . . . . . f f f f f f f f f f 
-. . . . . . f f f f f f f f f f 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
 `;
             case "image6":
             case "Goompion":return img`
-................................
-.....ff......................ff.
-.....fff...................ffff.
-.....fcff................fffcf..
-......fcfff.............fccccf..
-......fcccff...ffffff..ffcccff..
-.......fcccfffff9cccfffffccff...
-.......fffffccc989ccccfcfccf...1
-........fccfccc898ccccfccff...1f
-.......ffccfccc989ccccfcccf..1ff
-.......fccfff89898989fffccf..1ff
-.......fccfff98989c98fffccf..1ff
-......ffccff2cc898ccc2ffccf..1ff
-......fcccfffcc989cccfffccf..1ff
-.......fcccfccc898cccccccff..1ff
-.......fffffffffffffffffffff.1ff
-.......fffffffffffffffffffff.fff
-..1....ffffffffffffffffffff..fff
-.1f1...ffffffffffffffffffff.ffff
-.1ff1..ffffffffffffffffffff.ffff
-11fff..ffffffffffffffffffff.ffff
-f1fff...ffffffffffffffffff.fffff
-fffff.....ffffffffffffffffffffff
-ffffff....f5ccfffffffffffcffffff
-fffffff...f55c3ccffffffccccffff.
-ffffffff..fc55cccccccc2ccc3ffff.
-ffffffff.fccc55ccccccc22cccffff.
-...fffffffcccc555cccccc2cccffff.
-...ffffff7cccccc55ccccc2ccccfff.
-....fffff777ccccc555ccc2ccccf...
-......ffccc77cccccc55555ccc3f...
-......fc3ccc77ccccccccc55555ff..
+77777777777777777777777777777777
+77777ff7777777777777777777777ff7
+77777fff7777777777777777777ffff7
+77777fcff7777777777777777fffcf77
+777777fcfff7777777777777fccccf77
+777777fcccff777ffffff77ffcccff77
+7777777fcccfffff9cccfffffccff777
+7777777fffffccc989ccccfcfccf7771
+77777777fccfccc898ccccfccff7771f
+7777777ffccfccc989ccccfcccf771ff
+7777777fccfff89898989fffccf771ff
+7777777fccfff98989c98fffccf771ff
+777777ffccff2cc898ccc2ffccf771ff
+777777fcccfffcc989cccfffccf771ff
+7777777fcccfccc898cccccccff771ff
+7777777fffffffffffffffffffff71ff
+7777777fffffffffffffffffffff7fff
+7717777ffffffffffffffffffff77fff
+71f1777ffffffffffffffffffff7ffff
+71ff177ffffffffffffffffffff7ffff
+11fff77ffffffffffffffffffff7ffff
+f1fff777ffffffffffffffffff.fffff
+fffff77777ffffffffffffffffffffff
+ffffff7777f5ccfffffffffffcffffff
+fffffff777f55c3ccffffffccccffff7
+ffffffff77fc55cccccccc2ccc3ffff7
+ffffffff7fccc55ccccccc22cccffff7
+777fffffffcccc555cccccc2cccffff7
+777ffffff7cccccc55ccccc2ccccfff7
+7777fffff777ccccc555ccc2ccccf777
+777777ffccc77cccccc55555ccc3f777
+777777fc3ccc77ccccccccc55555ff77
+`;
+            case "image5":
+            case "karakter1_small":return img`
+. . . . . . . . . . . . . . . . 
+. . f f f f f f f f f . . . . . 
+. f 9 9 9 9 9 9 9 9 9 f . . . . 
+f 9 9 f f f f f f f 9 9 f f f . 
+f 9 f 4 4 4 4 4 4 e f 9 f 9 9 f 
+f 9 f e e e e e e e f 9 f 9 9 f 
+f 9 9 f f f f f f f 9 9 f f 9 f 
+f 9 9 9 1 9 9 9 1 9 9 9 f . f f 
+f 8 8 9 f 9 9 9 f 9 9 9 f . f f 
+f 8 8 8 8 8 9 9 9 9 9 9 f . f f 
+f 8 8 f f f f f f f 9 9 f f 9 f 
+f 8 8 f 1 1 1 2 1 f 9 9 f 8 8 f 
+f 8 8 8 f f f f f 8 8 8 f 8 8 f 
+. f 8 8 8 8 8 8 8 8 8 8 f 8 f . 
+. f 8 8 8 8 8 8 8 8 8 8 f f . . 
+. . f f f f f f f f f f . . . . 
+`;
+            case "image7":
+            case "E":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . c . . . . . c . . . . . . 
+. . . c f f . . . . f f . . . . 
+. . . c f 2 . . . . 2 f . . . . 
+. . . c f f . . . . f f . . . . 
+. . . c c c c . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
 `;
         }
         return null;
