@@ -19,6 +19,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
         }
         controller.moveSprite(thePlayer, 100, 0)
         showCharacterScreen = false
+        music.play(music.createSong(assets.song`Backgrounds music`), music.PlaybackMode.UntilDone)
     } else {
         thePlayer.vy = -100
     }
@@ -42,7 +43,7 @@ function show_character_picker () {
     textSprite = textsprite.create("Velg din karakter:", 9, 10)
     textSprite.z = 101
     textSprite.setPosition(80, 29)
-    karakter2 = sprites.create(assets.image`karakter2`, SpriteKind.SelectableCharacter)
+    karakter2 = sprites.create(assets.image`Goompion`, SpriteKind.SelectableCharacter)
     karakter2.z = 101
     karakter2.setPosition(73, 67)
     sprites.setDataSprite(karakter2, "player", karakter2)
@@ -120,7 +121,7 @@ game.splash("Welcome To Food Smashers!")
 tiles.setCurrentTilemap(tilemap`level1`)
 gravity = 500
 karakter1_liten = sprites.create(assets.image`karakter1_small`, SpriteKind.Player)
-karakter2 = sprites.create(assets.image`karakter2`, SpriteKind.Player)
+karakter2 = sprites.create(assets.image`Goompion`, SpriteKind.Player)
 karakter3 = sprites.create(assets.image`myImage`, SpriteKind.Player)
 scene.setBackgroundColor(8)
 scene.setBackgroundImage(assets.image`background`)
